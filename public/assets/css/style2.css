@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+
+
+
+.logo{ padding: 5px 0; font-size: 25px; font-weight: bold;}
+
+.header{ margin-bottom: 20px; border-bottom:  1px solid #2d597e; display: flex; justify-content:center; }
+.headerTitle{ font-size: 17px; font-weight: bold; text-align: center;}
+.vcenter{display: flex;justify-content: center;align-items: center;}
+.vbottom{display: flex; justify-content: end; align-items: end;}
+#customStyleNav .navbar-nav .nav-link{ background: #18120e; color: #fff;  margin-left: 5px; color: #fff; padding: 7px 14px; border-radius: 10px 10px 0 0;}
+#customStyleNav .navbar-nav .nav-link i{ font-size: 14px; padding-right: 2px;}
+#customStyleNav .navbar-nav .nav-link:hover{ background: #db2016; color: #fff; }
+.noteText{ padding: 0px 0 50px 0;}
+.customHeader{background: #87CEEB; color: #fff; font-size: 20px; display: flex; justify-content: space-between; font-weight: 700; align-items: center;}
+.fs14{font-size: 14px; }
+.customCard ol {   padding: 10px 20px 10px 30px;}
+.customCard ol li{ padding: 0 0 8px 0; line-height: 22px;}
+.customCard ol li a{ color: #db2016; text-decoration:underline;}
+.regBtn{ text-align: right; padding:0 30px 30px; }
+.regBtn a{ background: #db2016; color: #fff; border-radius: 5px; display: inline-block; padding: 10px 25px; text-transform: uppercase; font-weight: 700; text-decoration: none;}
+.regBtn a:hover{ background: #000;}
+.red{ color: #f00;}
+.bg1{ background: #f1f1f1;  padding: 0px 20px 8px; margin-bottom: 8px;}
+.bg2{ background: #ecf8ee;  padding: 0px 20px 8px; margin-bottom: 8px;}
+.bg3{ background: #f8fdff;  padding: 0px 20px 8px; margin-bottom: 8px;}
+.mw70{ max-width: 44%;}
+.customCard2{ margin-top: 20px;}
+.customHeader2{background: #336086; color: #fff; font-size: 18px; font-weight: 500;}
+.helpLine{color: #000fff; font-size: 12px; padding: 5px 0 0 0; line-height: 18px;display: inline-block;}
+.form-control:focus, .form-select:focus {  color: #000;   border-color:none;  outline: 0;  box-shadow: 0 0 0 0rem rgba(13,110,253,.25);}
+.col-form-label{font-size: 14px;font-weight: 700;color: #000;}
+div.otp-hidden { display: none;}
+.form-control{color:#000;}
+.regBtn2{ text-align:center;}
+.regBtn2 button{ background: #db2016; color: #fff; border-radius: 5px; display: inline-block; padding: 10px 25px; text-transform: uppercase; font-weight: 700; text-decoration: none;}
+.regBtn2 button:hover{ background: #000; color: #fff;}
+.regBtn3{ text-align:center;}
+.regBtn3 button{ background: #000; color: #fff; border-radius: 5px; display: inline-block; padding: 10px 25px; text-transform: uppercase; font-weight: 700; text-decoration: none;}
+.regBtn3 button:hover{ background: #db2016; color: #fff;}
+
+.razorpay-payment-button {
+  background: #db2016;
+  color: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+.fa-xmark{background: #dc3545; cursor: pointer; color: #fff; padding: 2px 5px; border-radius: 2px; font-size: 10px;margin-left: 10px;}
+#F234 option{font-family: 'Space Mono', monospace;}
+ div.otp-hidden {display: none;}
+div.otp-show {display: block;}
+        span.page-event-hiden{display: none;}
+        span.page-event-show{display: block;}
+             .required{}
+        .required:after{content: '*'; color: red;}
+        .ajax-busy-wrap {position: fixed; width: 100%; height: 100%; top: 0; left: 0; text-align: center; background: rgba(0,0,0,0.7) url("../images/ajax-loader.gif") no-repeat center center; z-index: 999999; }
+.vCenterLine{display: flex; align-items: center}
+.vCenterLine span{ padding-left: 15px;}
+.greenbtn{font-size: 30px;color: #0cbd06; margin-left: 5px;}
+.w56{width: 56%; margin-right: 5px;}
+.w74{ width: 70%; margin-right: 13px;}
+.mw77{min-width: 94px;}
+.vCenterLine2{display: flex; align-items: center; justify-content: space-between;}
+.form-control[type="file"] {  margin-right: 10px;}
+.selectPinCode{ font-size: 22px;}
+.pt33{padding-top: 35px;}
+.lh38{ line-height: 38px;}
+.bg1 td{background: #f2f2f2;}
+::placeholder{font-size: 14px;}
+/*input[type="file"]{max-width: 118px;}*/
+.bg-red{ border: 1px solid #f00 !important;}
+.bg-gr{border:1px solid green !important;}
+
+#tabs {
+    padding: 5px 20px;
+    background: #edfeec;
+    overflow: hidden;
+    margin-bottom:10px;
+}
+#tabs .ui-tabs-nav li {
+    margin-right: 26px;
+    position: relative;
+}
+#tabs .ui-tabs-anchor {
+   padding: 5px 13px;
+min-width: 145px;
+    text-align: center;
+    height: 34px;
+    color: #fff;
+}
+#tabs .ui-tabs-anchor:hover {
+    color: #fff;
+}
+.triangle {
+    border-left: solid 17px rgb(66, 123, 171);
+    border-bottom: solid 17px transparent;
+    border-top: solid 17px transparent;
+    position: absolute;
+    right: -17px;
+}
+.triangle-2 {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 17px solid #427bab;
+    border-bottom: 17px solid #427bab;
+    border-left: 17px solid transparent;
+    position: absolute;
+    left: -16px;
+}
+.ui-state-active .triangle {
+    border-left: solid 17px #b1302a;
+}
+.ui-state-active .triangle-2 {
+    border-top: solid 17px #b1302a;
+    border-bottom: solid 17px #b1302a;
+}
+.ui-state-active a {
+    background: #b1302a;
+    color: #fff!important;
+}
+.ui-state-default {
+    background: #427bab;
+    border: 0px;
+}
+.ui-state-default:hover {
+    background: #5a91bf;
+    color: #fff;
+}
+.ui-state-default:hover a, .ui-state-default:hover a, .ui-state-default:hover a {
+    border: none;
+}
+.ui-state-default:hover .triangle {
+    border-left: solid 17px #5a91bf;
+}
+.ui-state-default:hover .triangle-2 {
+    border-top: solid 17px #5a91bf;
+    border-bottom: solid 17px #5a91bf;
+}
+.ui-state-active:hover .triangle {
+    border-left: solid 17px #b1302a;
+}
+.ui-state-active:hover .triangle-2 {
+    border-top: solid 17px #b1302a;
+    border-bottom: solid 17px #b1302a;
+}
+
+#edu_qual .form-control, #edu_qual .form-select{font-size: 14px;}
+
+.fs14{font-size: 14px;}
+
+
+
+@media(max-width:1399px){
+	#customStyleNav .navbar-nav .nav-link i {
+  font-size: 14px;
+  padding-right: 2px;
+  display: block;
+  text-align: center;
+}
+	
+
+.headerTitle {	font-size: 12px;}
+}
